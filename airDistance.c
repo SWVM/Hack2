@@ -1,6 +1,8 @@
 /*///////////////////////////
-// NAME:
-// DESCRIPTION:
+// NAME:LIN LINHAN
+//      
+//      
+// DESCRIPTION: this program promote user for cordination of two point on earth and calculate the distance between them
 //
 //
 ///////////////////////////*/
