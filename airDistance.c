@@ -1,11 +1,11 @@
-/*///////////////////////////
+/************************************************************
 // NAME:LIN LINHAN
 //      
 //      
 // DESCRIPTION: this program promote user for cordination of two point on earth and calculate the distance between them
 //
 //
-///////////////////////////*/
+************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
