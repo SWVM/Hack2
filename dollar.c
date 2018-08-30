@@ -1,3 +1,4 @@
+some little changes
 #include <stdio.h>
 #include <stdlib.h>
 #define JPY_PER_USD  76.80
