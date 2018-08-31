@@ -1,7 +1,7 @@
 /************************************************************
 // NAME:LIN LINHAN
 // NAME: Wendian Zhang     
-//      
+// NAME: Jiahua Jia 
 // DESCRIPTION: this program promote user for cordination of two point on earth and calculate the distance between them
 //
 //
