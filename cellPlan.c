@@ -1,7 +1,7 @@
 /*////////////////////////////////////////////////////////////////////////
 //  Author: Li Linhan
 //          Wendian Zhang
-//
+//          Jiahua Jia
 //
 //  Date:2018 Sept.6
 //  Description: this program reads in inputs from command line
