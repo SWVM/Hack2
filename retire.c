@@ -52,7 +52,7 @@ int main(int argc, char const *argv[]) {
     printf("The number of years have to be positive!\n");
     return 2;
   }
-  if (contribution_per_month > 18500.0/12) {
+  if (contribution_per_month > (18500.0 / 12)) {
     printf("The annual contribution cannot exceed 18500!\n");
     return 3;
   }
@@ -60,19 +60,14 @@ int main(int argc, char const *argv[]) {
 
 //    calculation and printing
   printf("Month\tInterest\t\tBalance\n");//print the header of the table
-
   for (int i = 1; i < instance_untile_retirement + 1; i++) {
 
     interest = balance * adjusted_rate;
-    if (((int)interest % 10) > 4) {
-      interest += 10;
-    }
-    interest = ((int)(interest*100))/100.0;
     balance += contribution_per_month + interest;
     printf("%d\t$ %.2lf  \t\t$ %.2lf\n", i, interest, balance);
   }
 
-  printf("Total Interest Earned: $ %.2lf\n", balance - total_deposit);
+  printf("Total Interest Earned: $ %lf\n", balance - total_deposit);
   printf("Total Nest Egg: $ %.2lf\n", balance);
 
 
